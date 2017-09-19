@@ -10,7 +10,84 @@
 
 \begin{center}
 \large\sc 
+Rappels de cours : nombres complexes
+\end{center}
+Soit le nombre complexe $Z$, sa forme algébrique est donnée :
+\begin{equation*}
+Z = a + bi~(a \in \mathbb{R}, ~ b \in \mathbb{R} ~ et ~ i^2=-1)
+\end{equation*}
+$a$ est la partie réelle du nombre imaginaire $Z$ : $Re(Z)=a$.
+\\
+$b$ est la partie imaginaire du nombre complexe $Z$ : $Im(Z)=b$.
+\\
+\\
+$Z$ est dit purement imaginaire si et seulement si $a=0$.
+\\
+$Z$ est dit purement réel si et seulement si $b=0$.
+\\
+\\
+Le module du nombre complexe $Z$ est la distance OM tel que : $r=|Z|=\sqrt{a^2+b^2}$.\\
+L'argument du nombre complexe $Z$ est l'angle $\theta$ tel que : $Arg(Z)=\theta$.
+\\
+\\
+Z peut s'écrire sous la forme Trigonométrique suivante :
+\begin{equation*}
+Z = r(\cos \theta+i\sin \theta)
+\end{equation*}
+Ou encore sous la forme Exponentielle :
+\begin{equation*}
+Z = re^{i\theta}
+\end{equation*}
+{\bf Conjugué d'un nombre complexe}
+\\
+Le nombre complexe conjugué de $Z=a+bi$ est le nombre complexe $\overline{Z}=a-bi$.
+\begin{equation*}
+Z\overline{Z} = (a+bi)(a-bi) = a^2+b^2 = |Z|^2= |\overline{Z}|^2
+\end{equation*}\\
+Soit $Z_{1} = a_{1}+b_{1}i$ et $Z_{2} = a_{2}+b_{2}i$ deux nombres complexes.
+\begin{equation*}
+\overline{Z_{1}+Z_{2}}=\overline{Z_{1}}+\overline{Z_{2}}=(a_{1}+a_{2})-i(b_{1}+b_{2})
+\end{equation*}
+\begin{equation*}
+\overline{Z_{1} Z_{2}}=\overline{Z_{1}}~\overline{Z_{2}}=(a_{1}a_{2}-b_{1}b_{2})-i(a_{1}b_{2}+a_{2}b_{1})
+\end{equation*}
+{\bf Propriétés des nombres complexes}
+\\
+Soit deux nombres complexes $Z_{1} = a_{1}+b_{1}i$ et $Z_{2} = a_{2}+b_{2}i$.
+\\
+Égalité : $Z_{1} = Z_{2}~\Rightarrow~a_{1} = a_{2}~et~b_{1} = b_{2}$.
+\\
+Produit : ${Z_{1}Z_{2}}=(a_{1}a_{2}-b_{1}b_{2})+i(a_{1}b_{2}+a_{2}b_{1})$
+\\
+$|Z_{1}Z_{2}| = |Z_{1}| |Z_{2}|$
+\\
+$Arg(Z_{1}Z_{2}) = Arg(Z_{1}) +  Arg(Z_{2})$
+\\
+$Z_{1}Z_{2} = r_{1}r_{2} ( cos(\theta_{1}+\theta_{2})+i(\sin(\theta_{1}+\theta_{2})) 
+= r_{1}r_{2}e^i(\theta_{1}+\theta_{2})$
+\\
+Quotient :
+\\
+\begin{equation*}
+\frac{Z_{1}}{Z_{2}}
+=\frac{a_{1}+b_{1}i}{a_{2}+b_{2}i}=\frac{(a_{1}+b_{1}i)( a_{2}-b_{2}i)}{(a_{2}+b_{2}i)(a_{2}-b_{2}i)}
+=\frac{(a_{1}+b_{1}i)( a_{2}-b_{2}i)}{a_{2}^2+b_{2}^2} 
+= \frac{Z_{1}\overline{Z_{2}}}{|Z_{2}|^2}
+\end{equation*}
+\begin{equation*}
+|\frac{Z_{1}}{Z_{2}}| = \frac{|Z_{1}|}{|Z_{2}|}
+\end{equation*}
+\begin{equation*}
+Arg(\frac{Z_{1}}{Z_{2}}) = Arg(Z_{1})-Arg(Z_{2})
+\end{equation*}
 
+\begin{equation*}
+\frac{Z_{1}}{Z_{2}}= \frac{r_{1}}{r_{2}}( cos(\theta_{1}-\theta_{2})+i(\sin(\theta_{1}-\theta_{2})) = \frac{r_{1}}{r_{2}}e^{i(\theta_{1}-\theta_{2})}
+\end{equation*}
+
+
+\begin{center}
+\large\sc 
 TD : 1 mathématiques : Nombres complexes
 \end{center}
 
@@ -33,15 +110,15 @@ Z_{1}=1+i,~Z_{2}=\frac{1-i}{1+i},~Z_{3}=\frac{1+i\sqrt{3}}{\sqrt{3}+i},~Z_{4}=(1
 
 {\bf Exercice~4}~: Simplifier les expressions suivantes :
 \begin{equation*}
-Z_{1}=\frac{\cos\alpha+i\sin\alpha}{\cos\beta-i\sin\beta},~Z_{2}\frac{(1-i\sqrt{3})(\cos\alpha+i\sin\alpha)}{2(1-i)(\cos\alpha-i\sin\alpha)}
+Z_{1}=\frac{\cos\alpha+i\sin\alpha}{\cos\beta-i\sin\beta},~Z_{2}=\frac{(1-i\sqrt{3})(\cos\alpha+i\sin\alpha)}{2(1-i)(\cos\alpha-i\sin\alpha)}
 \end{equation*}
 
 {\bf Exercice~5}~: Déterminer les parties réelles et les parties imaginaires des nombres complexes suivants :
 \begin{equation*}
-Z_{1} = \exp(-1+\frac{i\pi}{6}),~Z_{2}=\exp(2-i),~Z_{3}=\exp(\frac{-i\pi}{2}),~Z_{4}=\exp(1+i)(-2+\frac{i\pi}{3})
+Z_{1} = e^{-1+\frac{i\pi}{6}},~Z_{2}=e^{2-i},~Z_{3}=e^{\frac{-i\pi}{2}},~Z_{4}=e^{1+i}e^{-2+\frac{i\pi}{3}}
 \end{equation*}
 
-{\bf Exercice~6}~: 
+{\bf Exercice~6}~: \\
 a) Résoudre dans $\mathbb{C}$ les équations suivantes :
 
 \begin{equation*}
@@ -57,7 +134,7 @@ $Z^2+(1-5i)Z-3i-6=0$ sachant que l'une des solutions est imaginaire pure.
 
 {\bf Exercice~8}~:\\ 1- Sachant que Z appartient au cercle trigonométrique unitaire $(z = e^{i\theta})$, simplifier l'expression du complexe : $Z = \frac{1-z}{1+z}$.
 \\
-2- Simplifier l'expression : $A = (1+Z)^n$ avec $Z=e^\frac{2i\pi}{3}$ avec $n\in\mathbb{C}$.
+2- Simplifier l'expression : $A = (1+Z)^n$ avec $Z=e^\frac{2i\pi}{3}$ avec $n\in\mathbb{N}$.
 
 {\bf Exercice~9}~: Calculer les racines carrées des nombres complexes suivants :
 \begin{equation*}

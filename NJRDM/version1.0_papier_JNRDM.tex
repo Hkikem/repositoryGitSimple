@@ -1,0 +1,38 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\pagestyle{empty}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+\begin{center}
+\large\sc 
+\begin{flushleft}
+    \bf
+    {\large Les transformées temps-fréquence combinées au Non-Intrusive Loads Monitoring pour la caractérisation des transitoires charges électriques}
+\end{flushleft}
+
+{\normalsize Mahfoud Drouaz\footnote{Adresse email : mahfoud.drouaz@uha.fr}, Ali Moukadem, Bruno Colicchio, Alain Dieterlen et Djafar Ould-Abdeslam}
+
+{\normalsize Université de Haute-Alsace, Laboratoire MIPS, 61 rue Albert Camus 68093 Mulhouse}
+\end{center}
+
+\begin{abstract}
+{\footnotesize Cet abstract présente les travaux de thèse qui s'inscrivent dans le cadre de l'identification non-intrusive des charges électriques connu aussi sous le NILM (Non-intrusive Load Monitoring).  Il présente l'application des transformées temps-fréquence à l'analyse des transitoires des appareils électriques lors de leurs mise en marche. Cette analyse permet d'extraire certaines caractéristiques des appareils électriques afin de faciliter leur identification et le suivi de leur consommation énergétique dans le but de l'optimiser au mieux.}
+\end{abstract}
+
+{\normalsize Depuis les travaux pionniers de Hart en 1992 \cite{hart1992}, le NILM a connu une expansion considérable ces dernières années dans le domaine de la gestion et de l’optimisation de la   consommation énergétique. Il s’attache à désagréger les courbes de charges et identifier les appareils connectés sur le réseau électrique et déterminer leurs consommations. La reconnaissance des charges s’appuie sur l’extraction de signatures électriques que les appareils émettent lors de leur fonctionnement. Les premiers modèles d’identification dans le NILM s’appuyaient sur des descripteurs du régime établi, tels que le courant efficace, la puissance, le taux d’harmoniques émit par les appareils. Aujourd’hui, de nombreux travaux sur la reconnaissance des appareils électriques visent à étudier le régime transitoire \cite{naitmeziane2016, sanquer2013}, afin d'apporter plus de performances à la reconnaissance déjà existante. Le régime transitoire consiste à étudier le moment de la mise en marche d'une charge électrique. Pour faire, nous utilisons et nous développons des techniques de traitement du signal en utilisant les outils temps-fréquence, cela nous permet d'extraire les caractéristiques des chaque transitoire d'une charge électrique en fonction du temps et de la fréquence.}
+
+
+\bibliographystyle{ieeetr}
+\bibliography{Bib_papier_NJRDM}
+\end{document}

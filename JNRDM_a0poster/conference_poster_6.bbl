@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{hart1992}
+George~William Hart.
+\newblock Nonintrusive appliance load monitoring.
+\newblock {\em Proceedings of the IEEE}, 80(12):1870--1891, 1992.
+
+\bibitem{mansinha1997local}
+L~Mansinha, RG~Stockwell, RP~Lowe, M~Eramian, and RA~Schincariol.
+\newblock Local s-spectrum analysis of 1-d and 2-d data.
+\newblock {\em Physics of the Earth and Planetary Interiors}, 103(3):329--336,
+  1997.
+
+\bibitem{naitmeziane2016}
+Mohamed Nait~Meziane.
+\newblock {\em {Analysis of turn-on transient currents for electrical
+  appliances identification}}.
+\newblock Theses, {Universit{\'e} d'Orl{\'e}ans}, December 2016.
+
+\bibitem{sanquer2013}
+Matthieu Sanquer.
+\newblock {\em D{\'e}tection et caract{\'e}risation de signaux transitoires}.
+\newblock PhD thesis, Grenoble-INP, 2013.
+
+\bibitem{stockwell1996localization}
+Robert~Glenn Stockwell, Lalu Mansinha, and RP~Lowe.
+\newblock Localization of the complex spectrum: the s transform.
+\newblock {\em Signal Processing, IEEE Transactions on}, 44(4):998--1001, 1996.
+
+\end{thebibliography}

@@ -1,0 +1,40 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\pagestyle{empty}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+\begin{center}
+\large\sc 
+\begin{flushleft}
+    \bf
+    {\begin{center}\large Les transformées temps-fréquence appliquées à la classification des charges électriques\end{center}}
+\end{flushleft}
+
+{\normalsize Mahfoud Drouaz\footnote{Adresse email : mahfoud.drouaz@uha.fr}, Ali Moukadem, Bruno Colicchio, Alain Dieterlen et Djafar Ould-Abdeslam}
+
+{\normalsize Université de Haute-Alsace, Laboratoire MIPS, 61 rue Albert Camus 68093 Mulhouse}
+\end{center}
+
+\begin{abstract}
+{\footnotesize Ce résumé présente les travaux de thèse qui s'inscrivent dans le cadre de l'identification non-intrusive des charges électriques connu aussi sous le nom de NILM (Non-intrusive Load Monitoring). Il présente l'application des transformées temps-fréquence à l'analyse des transitoires de mise en marche des appareils électriques. Cette analyse permet d'extraire les signatures de ces transitoires dans le but de caractériser et faciliter l'identification et le suivi de consommation énergétique des charges électriques.}
+\end{abstract}
+
+{\normalsize Dans le contexte d'une maîtrise de la consommation énergétique des foyers, une connaissance détaillée de la consommation individuelle des équipements électriques est nécessaire et importante. Depuis les travaux pionniers de Hart en 1992 \cite{hart1992} sur le NILM (Non-Intrusive Load Monitoring), l'intérêt de cette méthode a trouvé une place au sein de la communauté scientifique et industrielle. Le NILM s’attache à obtenir des informations de manière non-intrusive à partir d'un seul point de mesure, étudier la désagrégation des courbes de charges afin d'identifier les appareils connectés sur le réseau électrique et ainsi réaliser le suivi leurs consommations. La reconnaissance des charges s’appuie sur l’extraction de signatures électriques que les appareils émettent lors de leur fonctionnement. Les premiers modèles d’identification dans le NILM consistaient à extraire des descripteurs à partir du régime établi, tels que le courant efficace, la puissance, le taux d’harmoniques émis par les appareils, etc. De nos jours, de nombreux travaux visent à étudier le régime transitoire \cite{naitmeziane2016, sanquer2013}, afin d'apporter plus de performances à l'identification et la classification des charges électriques. Le régime transitoire étudie l'instant de mise en marche d'une charge électrique. Pour ce faire, nous exploitons les outils de traitement du signal temps-fréquence. Les transformées temps-fréquence permettent d'étudier l'évolution fréquentielle d'un signal dans le temps, dans le cadre des travaux réalisés dans cette thèse, elles nous permettent d'extraire les caractéristiques du transitoire de mise en marche associées à chaque charge électrique. Durant cette thèse, une plateforme d'acquisition et de simulation de scénarios a été développée. Une base de données de mesures a été par la suite réalisée sur plusieurs types d'appareils électriques afin de pouvoir tester nos algorithmes de classification. Enfin, l'application des transformées temps-fréquence à l'analyse des transitoires de mise en marche des charges électriques offre une nouvelle voie pour l'application de ces outils d'analyse.
+
+}
+
+
+\bibliographystyle{ieeetr}
+\bibliography{Bib_papier_NJRDM}
+\end{document}
